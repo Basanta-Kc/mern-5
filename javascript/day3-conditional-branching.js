@@ -1,20 +1,20 @@
-// const number = +prompt("Enter Your Score ??"); // string, null => Nan, Numercie
-// console.log(number);
+const input = prompt("Enter Your Score ??"); // string, null => Nan, Numercie
+const number = +input;
 
 // // 80 => a => 70 => b => 60 => c
 // // console.log(number);
 
-// if (typeof number === "number") {
-//   if (number >= 80 && number <= 100) {
-//     console.log("A");
-//   } else if (number >= 70) {
-//     console.log("B");
-//   } else {
-//     console.log("C");
-//   }
-// } else {
-//   alert("Invalid Input");
-// }
+if (typeof number === "number") {
+  if (number >= 80 && number <= 100) {
+    console.log("A");
+  } else if (number >= 70) {
+    console.log("B");
+  } else {
+    console.log("C");
+  }
+} else {
+  alert("Invalid Input");
+}
 
 // const num = 10;
 
@@ -32,9 +32,9 @@
 // true && true => true
 // falsy => 0, nan, null, undefine, ""
 
-const result = true && "" && "basanta" && null;
-console.log(result);
+// const result = true && "" && "basanta" && null;
+// console.log(result);
 
-if ("") {
-  console.log("Inside If.");
-}
+// if ("") {
+//   console.log("Inside If.");
+// }
